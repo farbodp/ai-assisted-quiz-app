@@ -1,0 +1,15 @@
+# Exclude all files and directories that start with a dot
+.*
+
+# Exclude log files
+logs/
+
+# Exclude build artifacts
+dist/
+build/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*/__pycache__/
+*/*/__pycache__/
+*/*/*/__pycache__/
