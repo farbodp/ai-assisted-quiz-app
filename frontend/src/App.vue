@@ -2,17 +2,18 @@
   <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
   <img alt="quiz logo" src="./assets/quiz.jpg" style="width: 25%; height: auto;">
   <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-  <QuizComp/>
+  <!-- <QuizComp/> -->
+  <ToDo/>
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
-import QuizComp from './components/QuizComp.vue'
+import ToDo from './components/ToDo.vue'
 
 export default {
   name: 'App',
   components: {
-    QuizComp
+    ToDo
   }
 }
 </script>
